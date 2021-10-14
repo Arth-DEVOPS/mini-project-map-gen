@@ -1,0 +1,11 @@
+[31m[1mCMake Error[0m at /home/arth/ros/rotors_ws/src/opencv_converter/CMakeLists.txt:141 (add_executable):
+  Cannot find source file:
+
+    src/opencv_converter_node.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: _node
+CMake Error: Cannot determine link language for target "_node".

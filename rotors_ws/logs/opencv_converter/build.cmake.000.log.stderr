@@ -1,0 +1,5 @@
+[31m[1mCMake Error[0m at /home/arth/ros/rotors_ws/src/opencv_converter/CMakeLists.txt:154 (target_link_libraries):
+  Cannot specify link libraries for target "opencv_converter_node" which is
+  not built by this project.
+
+

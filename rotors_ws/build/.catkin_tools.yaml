@@ -1,0 +1,6 @@
+devel_space: /home/arth/ros/rotors_ws/devel
+install: false
+install_space: /home/arth/ros/rotors_ws/install
+profile: default
+source_space: /home/arth/ros/rotors_ws/src
+workspace: /home/arth/ros/rotors_ws

@@ -1,0 +1,17 @@
+[01m[K/home/arth/ros/rotors_ws/src/opencv_converter/src/opencv_converter.cpp:[m[K In member function ‘[01m[Kvoid ImageConverter::imageCb(const ImageConstPtr&)[m[K’:
+[01m[K/home/arth/ros/rotors_ws/src/opencv_converter/src/opencv_converter.cpp:43:39:[m[K [01;31m[Kerror: [m[Kcall to non-constexpr function ‘[01m[Kstatic std::chrono::_V2::steady_clock::time_point std::chrono::_V2::steady_clock::now()[m[K’
+     while(auto next<steady_clock::now([01;31m[K)[m[K+40s){
+                                       [01;31m[K^[m[K
+[01m[K/home/arth/ros/rotors_ws/src/opencv_converter/src/opencv_converter.cpp:43:16:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+     while(auto [01;31m[Knext<steady_clock::now()+40s[m[K){
+                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/arth/ros/rotors_ws/src/opencv_converter/src/opencv_converter.cpp:43:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kauto[m[K’
+     while([01;31m[Kauto[m[K next<steady_clock::now()+40s){
+           [01;31m[K^~~~[m[K
+[01m[K/home/arth/ros/rotors_ws/src/opencv_converter/src/opencv_converter.cpp:43:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kauto[m[K’
+[01m[K/home/arth/ros/rotors_ws/src/opencv_converter/src/opencv_converter.cpp:43:16:[m[K [01;31m[Kerror: [m[Kinvalid declaration of ‘[01m[K::next<std::chrono::operator+<std::chrono::_V2::steady_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> >, long int, std::ratio<1, 1> >(std::chrono::_V2::steady_clock::now(), std::literals::chrono_literals::operator""s<'4', '0'>())>[m[K’
+     while(auto [01;31m[Knext<steady_clock::now()+40s[m[K){
+                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/opencv_converter.dir/src/opencv_converter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/opencv_converter.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,7 @@
+[01m[K/home/arth/ros/rotors_ws/src/opencv_converter/src/opencv_converter.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kdate.h: No such file or directory
+ #include [01;31m[K"date.h"[m[K
+          [01;31m[K^~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/opencv_converter.dir/src/opencv_converter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/opencv_converter.dir/all] Error 2
+make: *** [all] Error 2

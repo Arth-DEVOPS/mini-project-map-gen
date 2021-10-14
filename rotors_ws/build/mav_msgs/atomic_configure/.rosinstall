@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/arth/ros/rotors_ws/devel/.private/mav_msgs/setup.sh

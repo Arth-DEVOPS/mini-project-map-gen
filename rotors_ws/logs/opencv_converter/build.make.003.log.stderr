@@ -1,0 +1,3 @@
+make[2]: *** No rule to make target '/home/arth/ros/rotors_ws/src/opencv_converter/src/converternode.cpp', needed by 'CMakeFiles/_node.dir/src/converternode.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/_node.dir/all] Error 2
+make: *** [all] Error 2

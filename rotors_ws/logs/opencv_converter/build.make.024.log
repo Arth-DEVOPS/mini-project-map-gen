@@ -1,0 +1,16 @@
+[35m[1mScanning dependencies of target opencv_converter[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/opencv_converter.dir/src/opencv_converter.cpp.o[0m
+[01m[K/home/arth/ros/rotors_ws/src/opencv_converter/src/opencv_converter.cpp:[m[K In member function ‘[01m[Kvoid ImageConverter::imageCb(const ImageConstPtr&)[m[K’:
+[01m[K/home/arth/ros/rotors_ws/src/opencv_converter/src/opencv_converter.cpp:41:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kctr[m[K’ was not declared in this scope
+     while([01;31m[Kctr[m[K<40){
+           [01;31m[K^~~[m[K
+[01m[K/home/arth/ros/rotors_ws/src/opencv_converter/src/opencv_converter.cpp:41:11:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KcvOr[m[K’
+     while([01;36m[Kctr[m[K<40){
+           [01;36m[K^~~[m[K
+           [32m[KcvOr[m[K
+CMakeFiles/opencv_converter.dir/build.make:62: recipe for target 'CMakeFiles/opencv_converter.dir/src/opencv_converter.cpp.o' failed
+CMakeFiles/Makefile2:963: recipe for target 'CMakeFiles/opencv_converter.dir/all' failed
+make[2]: *** [CMakeFiles/opencv_converter.dir/src/opencv_converter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/opencv_converter.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

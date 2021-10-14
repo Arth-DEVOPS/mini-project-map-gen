@@ -1,0 +1,5 @@
+Symlinking /home/arth/ros/rotors_ws/devel/lib/librotors_hil_interface.so
+Symlinking /home/arth/ros/rotors_ws/devel/lib/rotors_hil_interface/rotors_hil_interface_node
+Symlinking /home/arth/ros/rotors_ws/devel/lib/pkgconfig/rotors_hil_interface.pc
+Symlinking /home/arth/ros/rotors_ws/devel/share/rotors_hil_interface/cmake/rotors_hil_interfaceConfig.cmake
+Symlinking /home/arth/ros/rotors_ws/devel/share/rotors_hil_interface/cmake/rotors_hil_interfaceConfig-version.cmake

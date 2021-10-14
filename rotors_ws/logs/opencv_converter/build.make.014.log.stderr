@@ -1,0 +1,11 @@
+[01m[K/home/arth/ros/rotors_ws/src/opencv_converter/src/opencv_converter.cpp:[m[K In member function ‘[01m[Kvoid ImageConverter::imageCb(const ImageConstPtr&)[m[K’:
+[01m[K/home/arth/ros/rotors_ws/src/opencv_converter/src/opencv_converter.cpp:43:34:[m[K [01;31m[Kerror: [m[Kcall to non-constexpr function ‘[01m[Kstatic std::chrono::_V2::steady_clock::time_point std::chrono::_V2::steady_clock::now()[m[K’
+     while(next<steady_clock::now([01;31m[K)[m[K+40s){
+                                  [01;31m[K^[m[K
+[01m[K/home/arth/ros/rotors_ws/src/opencv_converter/src/opencv_converter.cpp:43:11:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+     while([01;31m[Knext<steady_clock::now()+40s[m[K){
+           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/arth/ros/rotors_ws/src/opencv_converter/src/opencv_converter.cpp:43:11:[m[K [01;31m[Kerror: [m[Kcannot resolve overloaded function ‘[01m[Knext[m[K’ based on conversion to type ‘[01m[Kbool[m[K’
+make[2]: *** [CMakeFiles/opencv_converter.dir/src/opencv_converter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/opencv_converter.dir/all] Error 2
+make: *** [all] Error 2

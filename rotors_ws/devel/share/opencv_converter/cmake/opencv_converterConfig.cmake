@@ -1,0 +1,1 @@
+/home/arth/ros/rotors_ws/devel/.private/opencv_converter/share/opencv_converter/cmake/opencv_converterConfig.cmake

@@ -1,0 +1,9 @@
+[01m[K/home/arth/ros/rotors_ws/src/opencv_converter/src/opencv_converter.cpp:13:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kdate[m[K’ is not a namespace-name
+ using namespace [01;31m[Kdate[m[K;
+                 [01;31m[K^~~~[m[K
+[01m[K/home/arth/ros/rotors_ws/src/opencv_converter/src/opencv_converter.cpp:13:21:[m[K [01;31m[Kerror: [m[Kexpected namespace-name before ‘[01m[K;[m[K’ token
+ using namespace date[01;31m[K;[m[K
+                     [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/opencv_converter.dir/src/opencv_converter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/opencv_converter.dir/all] Error 2
+make: *** [all] Error 2

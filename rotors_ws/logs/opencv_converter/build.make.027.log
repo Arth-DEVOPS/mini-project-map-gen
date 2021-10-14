@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target opencv_converter[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/opencv_converter.dir/src/opencv_converter.cpp.o[0m
+[01m[K/home/arth/ros/rotors_ws/src/opencv_converter/src/opencv_converter.cpp:107:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+ [01;31m[K}[m[K
+ [01;31m[K^[m[K
+[01m[K/home/arth/ros/rotors_ws/src/opencv_converter/src/opencv_converter.cpp:107:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+CMakeFiles/opencv_converter.dir/build.make:62: recipe for target 'CMakeFiles/opencv_converter.dir/src/opencv_converter.cpp.o' failed
+CMakeFiles/Makefile2:963: recipe for target 'CMakeFiles/opencv_converter.dir/all' failed
+make[2]: *** [CMakeFiles/opencv_converter.dir/src/opencv_converter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/opencv_converter.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2
