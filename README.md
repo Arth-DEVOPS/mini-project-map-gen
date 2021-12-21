@@ -1,7 +1,7 @@
 # Mini-Project-Map-Gen
 ## Introduction
  These files contain the progress of my mini-project Map Generation. 
- A camera was attached to the qaudcopter and a node was designed with the purpose of capturing images at regular intervals. 
+ A camera was attached to the quadcopter and a node was designed with the purpose of capturing images at regular intervals. 
  I used OpenCV to make this happen. A map was designed consisting of a maze made up of walls. Initially the node was designed to take a snap of a single picture however with the help of static integers it was repurposed for snapping images in particular intervals. A survey routine was then decided so as to minimise flight time while simultaneously covering the entire map. 
  
 ## Dependencies
